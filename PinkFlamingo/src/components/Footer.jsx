@@ -9,17 +9,17 @@ import { PiInstagramLogoFill } from "react-icons/pi";
 export default function Footer() {
   return (
     <div className='bg-[#FA5C98] flex flex-col text-white'>
-      <div className='flex flex-row p-5 items-center justify-around border-b-2 border-white'>
-        <div className='flex flex-row gap-4 items-center justify-center'>
+      <div className='flex flex-col gap-4 md:flex-row px-3 py-5 md:p-5 items-center justify-around border-b-[1px] border-white'>
+        <div className='flex flex-row gap-4 items-start md:items-center justify-center'>
             <HiOutlineMail className='text-3xl'/>
-            <p className='text-2xl'>Sign Up To Shop Now</p>
+            <p className='text-xl md:text-2xl'>Sign Up To Shop Now</p>
         </div>
-        <label htmlFor='email' className='flex flex-row gap-2 p-1 justify-between rounded-md bg-white w-2/6'>
+        <label htmlFor='email' className='flex md:flex-row flex-col gap-2 p-1 justify-between rounded-md bg-white w-[90vw] md:w-2/6'>
             <input type="text" name="email" id="email" placeholder='Enter your email' className='outline-none p-1'/>
             <button className='bg-[#FA5C98] rounded-md px-3 py-1'>SUBSCRIBE</button>
         </label>
       </div>
-      <div className='py-10 px-5 flex flex-1 flex-row justify-around items-start'>
+      <div className='py-5 md:py-10 px-5 flex flex-wrap flex-col md:flex-row justify-around items-start'>
         <div className='text-xs'>
             <p className='text-lg font-semibold'>Contact Us</p>
             <p>Demo Store</p>

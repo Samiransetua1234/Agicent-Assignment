@@ -34,9 +34,9 @@ export default function Categories() {
         }
     ]
   return (
-    <div className='flex flex-col gap-3 py-4'>
-      <h3 className='font-semibold'>Shop From Our Top Categories</h3>
-      <div className='flex flex-row gap-3'>
+    <div className='flex flex-col gap-3 py-8 px-2'>
+      <h3 className='font-bold'>Shop From Our Top Categories</h3>
+      <div className='flex flex-row flex-wrap justify-center items-center gap-3'>
         {
             items.map((item, index)=>{
                return <div key={index} className='text-center'>
