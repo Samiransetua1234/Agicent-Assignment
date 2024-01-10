@@ -6,7 +6,7 @@ import { IoCart } from "react-icons/io5";
 import { LuUser2 } from "react-icons/lu";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-export default function TopSearchBar() {
+export default function TopSearchBar({setShowSideNav}) {
   const pin = 110094;
   return (
     <>
@@ -44,7 +44,7 @@ export default function TopSearchBar() {
 
       <div className="w-full lg:hidden flex flex-col px-3 py-2 gap-2">
       <div className="w-full flex flex-row items-center justify-between">
-        <GiHamburgerMenu className="text-2xl"/>
+        <GiHamburgerMenu className="text-2xl" onClick={()=>setShowSideNav(true)}/>
       <div className="flex flex-row items-center gap-1">
           <img src={Group} alt="Logo" />
           <div className="flex flex-col text-[#FA5C98]">
