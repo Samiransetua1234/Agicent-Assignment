@@ -11,7 +11,7 @@ export default function TopNav({data}) {
     else setShowDropDown(false)
   }
   return (
-    <div className='border-2 border-gray-100 p-3'>
+    <div className='border-2 border-gray-300 p-3'>
       <nav className='flex flex-row items-center font-semibold justify-center gap-5'>
         <span className={`${navoption === 'Home' && 'text-[#FA5C98]'} cursor-pointer`} onClick={()=>handleNavClick('Home')}>Home</span>
         <span className={`flex flex-row items-center gap-2 cursor-pointer ${navoption === 'Products' && 'text-[#FA5C98]'}`} onClick={()=>{handleNavClick('Products')}}>Products <img src={DropDownArrow} alt="arrow" className='rotate-90' /></span>
