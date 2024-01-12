@@ -15,10 +15,10 @@ import Rectangle_88 from '../../assets/productsimg/Rectangle 88.svg'
 import Rectangle_89 from '../../assets/productsimg/Rectangle 89.svg'
 import Rectangle_90 from '../../assets/productsimg/Rectangle 90.svg'
 import Rectangle_91 from '../../assets/productsimg/Rectangle 91.svg'
-import Rectangle_13 from '../../assets/productsimg/Rectangle 13.svg'
-import Rectangle_14 from '../../assets/productsimg/Rectangle 14.svg'
-import Rectangle_15 from '../../assets/productsimg/Rectangle 15.svg'
-import Rectangle_16 from '../../assets/productsimg/Rectangle 16.svg'
+import Rectangle_13 from '../../assets/productsimg/image 10.svg'
+import Rectangle_14 from '../../assets/productsimg/image 11.svg'
+import Rectangle_15 from '../../assets/productsimg/image 12.svg'
+import Rectangle_16 from '../../assets/productsimg/image 13.svg'
 
 const Products = createSlice({
     name:"products_data",
@@ -158,8 +158,8 @@ const Products = createSlice({
             id:1001,
             img:[Rectangle_82,Rectangle_13,Rectangle_14,Rectangle_15,Rectangle_16],
             brand:'Rashmi Divine Solutions',
-            Scent: 'Floral',
-            Availability: 2,
+            scent: 'Floral',
+            availability: 2,
             title:'Lavender Dhoop Cone Sticks Pack of 100-Piece/Jar by Rashmi Divine',
             key_info:{
                 p1:'Lavender Dhoop sticks activate your senses and relax the nerves, making you less anxious. They also hold the power to cleanse the air.',

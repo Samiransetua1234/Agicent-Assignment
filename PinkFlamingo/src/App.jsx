@@ -40,8 +40,8 @@ function App() {
       <Provider store={store}>
       <section className='flex flex-col justify-center items-center relative top-40 w-screen'>
       {/* <Home/> */}
-      <Products/>
-      {/* <ProductDetail/> */}
+      {/* <Products/> */}
+      <ProductDetail/>
       <footer className='w-full'>
         <Footer/>
       </footer>

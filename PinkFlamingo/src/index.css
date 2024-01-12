@@ -10,9 +10,25 @@
     border-radius: 7px;
     background: linear-gradient(90deg, #DC8064 -11.11%, #E98C70 6.02%, #FB9E82 23.14%, #FDBB9F 48.17%, #FFCAAE 63.98%, #F8AD92 78.48%, #F19176 95.6%);
 }
+.pbuttonbg{
+    background: linear-gradient(90deg, #DC8064 -11.11%, #E98C70 6.02%, #FB9E82 23.14%, #FDBB9F 48.17%, #FFCAAE 63.98%, #F8AD92 78.48%, #F19176 95.6%);
+}
 .box-shadow{
     box-shadow: 0px 4px 13px 0px rgba(190, 190, 190, 0.20);
 }
 .dropbox-shadow{
     box-shadow: 5.655px 0px 12.442px 0px rgba(0, 0, 0, 0.08);
 }
+
+.custom-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #e8f1fb;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    outline: none;
+    padding: .1rem .5rem;
+    color: gray;  
+  }
