@@ -29,7 +29,7 @@ export default function Products() {
       {
         data.map((product, index)=>{
             
-            return <Link to='/productdetails' > <ProductCard key={index+product.id} data={product}/></Link>
+            return <Link key={index+product.id} to='/productdetails' > <ProductCard data={product}/></Link>
         })
       }
     </div>

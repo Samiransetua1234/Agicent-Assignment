@@ -9,7 +9,7 @@ export default function ProductCard({data}) {
       <div className='p-1'>
         <p className='text-xl font-semibold text-[#FA5C98]'>{title}</p>
         <p>{desc}</p>
-        <p><RatingSystem rating={rating}/></p>
+        <div><RatingSystem rating={rating}/></div>
         <p className='text-xl text-[#C0590E] font-bold'>{`$${disc_price}`}</p>
       </div>
     </div>
