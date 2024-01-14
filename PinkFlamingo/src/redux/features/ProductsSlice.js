@@ -31,6 +31,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 2.05,
                 rating:4,
+                stock:3,
             },
             {
                 id:1002,
@@ -39,6 +40,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 1.05,
                 rating:4,
+                stock:4,
             },
             {
                 id:1003,
@@ -47,6 +49,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 2.75,
                 rating:4,
+                stock:6,
             },
             {
                 id:1004,
@@ -55,6 +58,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 5.05,
                 rating:4,
+                stock:5,
             },
             {
                 id:1005,
@@ -63,6 +67,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 3.05,
                 rating:4,
+                stock:0,
             },
             {
                 id:1006,
@@ -71,6 +76,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 10.05,
                 rating:4,
+                stock:8,
             },
             {
                 id:1007,
@@ -79,6 +85,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 4.05,
                 rating:4,
+                stock:0,
             },
             {
                 id:1008,
@@ -87,6 +94,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 0.75,
                 rating:4,
+                stock:6,
             },
             {
                 id:1009,
@@ -95,6 +103,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 3.05,
                 rating:4,
+                stock:3,
             },
             {
                 id:1010,
@@ -103,6 +112,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 10.05,
                 rating:4,
+                stock:8,
             },
             {
                 id:1011,
@@ -111,14 +121,16 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 4.05,
                 rating:4,
+                stock:1,
             },
             {
                 id:1012,
-                img:Rectangle_87,
+                img:Rectangle_84,
                 title:'Musk INCENSE CONES',
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 0.75,
                 rating:4,
+                stock:7,
             },
             {
                 id:1013,
@@ -127,6 +139,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 3.05,
                 rating:4,
+                stock:3,
             },
             {
                 id:1014,
@@ -135,14 +148,16 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 10.05,
                 rating:4,
+                stock:0,
             },
             {
                 id:1015,
-                img:Rectangle_90,
+                img:Rectangle_82,
                 title:'Yerba Santa INCENSE CONES',
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 4.05,
                 rating:4,
+                stock:3,
             },
             {
                 id:1016,
@@ -151,6 +166,7 @@ const Products = createSlice({
                 desc:'4 IN 1 Long 100 Pcs Dhoop Cones For Regular Use',
                 disc_price: 0.75,
                 rating:4,
+                stock:5,
             },
         ],
 
