@@ -97,17 +97,18 @@ export default function ProductDetail() {
           <p className={`font-medium ${infoDiv === 'Review'?'border-b-2': 'border-none'} border-[#FA5C98] cursor-pointer`} onClick={()=>setInfoDiv('Review')}>Reviews</p>
         </div>
         <div className="px-5 py-3">
-          <div className={` ${infoDiv === 'Desc'? 'inline-block':'hidden'}`}>{desc}</div>
-          <div className={` ${infoDiv === 'Info'? 'inline-block':'hidden'}`}>
+          <div key={`desc+${1001}`} className={` ${infoDiv === 'Desc'? 'inline-block':'hidden'}`}>{desc}</div>
+          <div key={`info+${1002}`} className={` ${infoDiv === 'Info'? 'inline-block':'hidden'}`}>
             <p>{`Pack Of : ${product_info.pack_of}`}</p>
             <p>{`About Product : ${product_info.about}`}</p>
           </div>
-          <div className={` ${infoDiv === 'Review'? 'flex':'hidden'} flex-col gap-3 justify-center items-center`}>
+          <div key={`rev+${1003}`} className={` ${infoDiv === 'Review'? 'flex':'hidden'} flex-col gap-3 justify-center items-start`}>
             {reviews.map((rev, index)=>{
-                <div className="flex flex-col gap-3">
+                
+                return <div key={rev.name+index}><div className="flex flex-col gap-1 py-3 px-5">
                   <h1>{rev.name}</h1>
                   <p>{rev.desc}</p>
-                </div>
+                </div></div>
             })}
           </div>
         </div>
