@@ -26,7 +26,7 @@ export default function ProductDetail() {
   const [currentImg, setCurrentImg] = useState(1)
   
   return (
-    <div className="flex flex-col py-8 px-8 md:px-20 justify-center items-center w-screen">
+    <div className="flex flex-col py-8 px-8 md:px-20 justify-center items-center w-screen overflow-hidden">
       <p className="text-lg w-full text-start text-[#C1C1C1]">{`Product > Dhoop Cones > Jar Cones`}</p>
       <div className="flex flex-col md:flex-row w-full justify-between gap-10">
         <div className="flex flex-col-reverse w-full md:flex-row gap-3 justify-center h-fit md:h-[28rem] md:w-1/2 ">
