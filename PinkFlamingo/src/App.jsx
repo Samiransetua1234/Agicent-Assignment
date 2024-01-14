@@ -6,10 +6,10 @@ import TopNav from './components/TopNav'
 import Footer from './components/Footer'
 import DropDown from './components/DropDown'
 import SideNav from './components/SideNav'
-import RatingSystem from './components/RatingSystem'
 import ProductDetail from './pages/ProductDetail'
 import { Provider } from "react-redux";
 import {store} from './redux/Store'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Products from './pages/Products'
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
   
   return (
     <>
+    <BrowserRouter>
       <main className='h-screen w-screen  overflow-y-auto scrollbar'>
       
       <header className='inline-block fixed w-full bg-white z-10'>
@@ -37,19 +38,32 @@ function App() {
       <section className={`${showDropDown ? 'inline-block':'hidden'} lg:absolute  z-30 lg:top-[11rem] lg:left-[16rem] xl:left-[22rem] 2xl:left-[30rem] text-center`}>
         <DropDown setShowDropDown={setShowDropDown}/>
       </section>
+      
       <Provider store={store}>
       <section className='flex flex-col justify-center items-center relative top-40 w-screen'>
+        
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/products' element={<Products/>} />
+          <Route path='/productdetails' element={<ProductDetail/>} />
+        </Routes>
       {/* <Home/> */}
+      
+      
       {/* <Products/> */}
-      <ProductDetail/>
+      
+      {/* <ProductDetail/> */}
       <footer className='w-full'>
         <Footer/>
       </footer>
+      
       </section>
+      
       </Provider>
       
       </main>
       {/* <RatingSystem/> */}
+      </BrowserRouter>
     </>
   )
 }

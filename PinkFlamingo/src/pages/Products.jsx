@@ -2,6 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import ProductCard from '../components/ProductCard';
 import Paggination from '../components/Paggination';
+import { Link } from 'react-router-dom';
 
 export default function Products() {
     const data = useSelector(state => state.data.products)
@@ -28,7 +29,7 @@ export default function Products() {
       {
         data.map((product, index)=>{
             
-            return <ProductCard key={index+product.id} data={product}/>
+            return <Link to='/productdetails' > <ProductCard key={index+product.id} data={product}/></Link>
         })
       }
     </div>

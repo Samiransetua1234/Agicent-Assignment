@@ -174,20 +174,20 @@ const Products = createSlice({
                 pack_of:100,
                 about:'Dhoop incence cone made from natual hurbs and scented.Long lasting enthralling dhoop batti for regular use - encouraging and cheering dhoop incense cones.'
             },
-            reviews:{
-                user1:{
+            reviews:[
+                {
                     name:'User A',
                     desc:'Awsome product great fragrance.'
                 },
-                user2:{
+                {
                     name:'User B',
                     desc:'Awsome product great fragrance.'
                 },
-                user3:{
+                {
                     name:'User C',
                     desc:'Awsome product great fragrance.'
                 }
-            },      
+            ],      
         }
     }
 })
